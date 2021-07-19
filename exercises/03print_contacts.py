@@ -16,7 +16,15 @@
 # Use the contacts below
 
 contacts = {
-  'Brian': '333-333-3333',
-  'Lenny': '444-444-4444',
-  'Daniel': '777-777-7777'
+    'Brian': '333-333-3333',
+    'Lenny': '444-444-4444',
+    'Daniel': '777-777-7777'
 }
+
+
+def print_contacts(contacts):
+    for name in contacts:
+        print('{}, {}'.format(name, contacts[name]))
+
+
+print_contacts(contacts)
