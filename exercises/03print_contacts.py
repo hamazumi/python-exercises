@@ -25,6 +25,8 @@ contacts = {
 def print_contacts(contacts):
     for name in contacts:
         print("{}'s number {}".format(name, contacts[name]))
+        # other way of solve f'' to call key:value directly
+        # print(f'{name} has a phone number of {contacts[name]}')
 
 
 print_contacts(contacts)
