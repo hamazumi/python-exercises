@@ -24,7 +24,7 @@ contacts = {
 
 def print_contacts(contacts):
     for name in contacts:
-        print('{}, {}'.format(name, contacts[name]))
+        print("{}'s number {}".format(name, contacts[name]))
 
 
 print_contacts(contacts)
